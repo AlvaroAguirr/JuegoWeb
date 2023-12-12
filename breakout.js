@@ -101,7 +101,7 @@ function update() {
     }
     else if (ball.y + ball.height >= boardHeight) {
         context.font = "20px sans-serif";
-        context.fillText("Game Over: Presiona 'Espacio' para reintentar", 50, 400);
+        context.fillText("Game Over: Presiona 'Espacio' para reintentar", 200, 400);
         gameOver = true;
     }
 
